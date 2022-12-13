@@ -1,0 +1,134 @@
+ body,html{
+margin:0;
+padding:0;
+
+}
+body{
+text-align:center;
+background:linear-gradient(120deg,#1B1515,#0E0A0A);
+background-size:cover;
+background-blend-mode:darken;
+flex:100%;
+}
+
+
+header{
+	width:100%;
+	height:;
+	background-color: ;
+background:linear-gradient(120deg,#1B1515,#0E0A0A);
+	z-index:20;
+	flex:100%;
+	
+}
+
+.navbar ul{
+
+text-align:center;
+padding:0;
+margin:0;
+flex:100%;
+} 
+
+.navbar li{
+display:inline-block;	
+padding:20px 50px;
+text-transform:uppercase;
+color:#fff;
+font-family: 'Fredoka One', cursive;
+flex:100%;
+ 
+}
+.navbar a{
+width:100px;
+color:#FFFF ;
+text-decoration:none;
+font-family: 'Fredoka One', cursive;
+font-size:30px;	
+transition:0.6s ease;
+font-weight:bold;
+flex:100%;
+ }
+
+a:hover{
+color:#FFFF ;
+transition:0.3s;
+background:#003184;
+width:50px;
+flex:100%;
+}
+
+h1{
+	Color:#003184;
+	text-align:center;
+	font-size:100px;
+	font-family:;
+	font-family: 'Fredoka One', cursive;
+	flex:100%;
+	
+}
+h2{
+	font-size:50px;
+	Color:#003184;
+	flex:100%;
+}
+
+p{
+	font-size:50px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-right:50px;
+	margin-left:50px;
+	color:#B4ADEA;
+	flex:100%;
+}
+
+.main{
+	background:linear-gradient(120deg,#1B1515,#0E0A0A);
+	width:100%;
+	flex:100%;
+}
+
+br{
+	font-size:500px;
+	flex:100%;
+}
+
+.img-event{
+	height:1000px;
+	display:block;
+	margin:0 auto;
+	text-align:center;
+	flex:100%;
+}
+
+@media(max-width:1000px){
+		.img-event{
+	height:1000px;
+	display:block;
+	margin:0 auto;
+	text-align:center;
+	flex:100%;
+}
+	h1{
+	font-size:50px;
+	flex:100%;
+	
+}
+		p{
+	font-size:25px;
+	padding:20px 0px 0 px;
+	flex:100%;
+}
+		h2{
+	padding:20px 0px 0 px;
+	flex:100%;
+}
+.img-event{
+	height:500px;
+	display:block;
+	margin:0 auto;
+	text-align:center;
+	flex:100%;
+}
+
+}
