@@ -39,7 +39,7 @@ list-style:none;
 } 
 
 .menu-bar ul li{
-padding:10px 30px;
+padding:10px 40px;
 position:relative;
 } 
 
@@ -172,11 +172,10 @@ br{
 
 .menu-bar{
 
-	position:absolute;
 }
 
 .menu-bar a{
-	font-size:18px;
+	font-size:14px;
 }
 @media(max-width:900px){
 	.img-event{
