@@ -8,9 +8,49 @@ text-align:center;
 background:linear-gradient(120deg,#1B1515,#0E0A0A);
 background-size:cover;
 background-blend-mode:darken;
-flex:100%;
+display:flex;
 }
 
+.teams{
+	cursor:pointer;
+	transition:0.4s;
+	box-sizing:border-box;
+}
+
+.sub-container{
+display:block;
+padding:40px;
+}
+
+.teams img{
+	width:300px;
+	height:250px;
+	margin-bottom:50px;
+	border:3px solid #fff;
+	border-radius:15px;
+	margin-top:50px;
+
+}
+.name{
+	padding:12px;
+	font-size:40px;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-family: 'Fredoka One', cursive;
+	color:#ffff;
+
+}
+.desig{
+	font-style:italic;
+	color:#ffff;
+	font-family: 'Fredoka One', cursive;
+}
+
+.about{
+	margin:20px 0;
+	font-weight:lighter;
+	color: #fff;
+}
 header{
 	width:100%;
 	height:;
