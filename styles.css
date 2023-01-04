@@ -121,7 +121,7 @@ flex:100%;
 	left:0;
 	top:100%;
 	background-color:#0c0f24;
-	transition:1s;
+
 
 }
 
@@ -180,7 +180,7 @@ br{
 }
 
 
-@media(max-width:1280px){
+@media(max-width:800px){
 		.img-event{
 	height:1000px;
 	display:block;
@@ -209,13 +209,35 @@ br{
 	text-align:center;
 	flex:100%;
 }
-
-.menu-bar{
+.menu-bar li{
+display:inline-block;
+width:10px;
+height:30px;
 
 }
 
 .menu-bar a{
-	font-size:14px;
+	font-size:18px;
+	display:block;
+position:absolute;
+}
+
+.dropdown_menu ul{
+	display:block;
+	margin:10px;
+	
+}
+
+.dropdown_menu ul li {
+	width:100px;
+	padding:35px;
+}
+
+
+
+	
+
+
 }
 @media(max-width:900px){
 	.img-event{
