@@ -209,6 +209,18 @@ br{
 	text-align:center;
 	flex:100%;
 }
+
+.img-event{
+	height:500px;
+	display:block;
+	margin:0 auto;
+	text-align:center;
+	flex:100%;
+}
+
+
+
+
 .menu-bar li{
 display:inline-block;
 width:10px;
